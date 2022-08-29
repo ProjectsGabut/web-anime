@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .clicked {
+        @apply bg-white text-black;
+        transition: .5s;
+    }
+
+    .nav-btn {
+        @apply bg-red-500;
+        transition: .5s;
+    }
+
+    .title {
+       @apply text-red-400;
+       transition: .5s; 
+    }
+}
